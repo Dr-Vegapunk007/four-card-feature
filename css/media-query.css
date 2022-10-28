@@ -13,12 +13,15 @@
 }
 @media all and (min-width: 1125px) {
   body {
-    margin: 17px 80px;
+    margin: 80px;
   }
   main {
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
     align-items: center;
+  }
+  article p.info {
+    font-size: 15px;
   }
   .supervisor {
     grid-row: 1/3;
