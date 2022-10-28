@@ -1,0 +1,78 @@
+/*
+   **Layout**
+  - Mobile: 375px
+  - Desktop: 1440px
+                    */
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Light-Gray: hsl(0, 0%, 98%);
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  font: normal normal 200 15px Poppins;
+  background-color: var(--Light-Gray);
+  margin: 50px 32px;
+  gap: 80px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p,
+.title {
+  font-size: 24px;
+  color: var(--Dark-Blue);
+}
+p.info {
+  text-align: center;
+  margin-top: 18px;
+}
+p.info {
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  font-size: 15px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+main article {
+  background-color: white;
+  align-items: flex-start;
+  border-top: solid 4px;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 2px 5px 15px rgba(65, 63, 63, 0.404);
+}
+main p.info {
+  text-align: left;
+  margin-top: 5px;
+  min-width: 290px;
+}
+img {
+  align-self: flex-end;
+  width: 55px;
+  margin-top: 30px;
+}
+.supervisor {
+  color: var(--Cyan);
+}
+.team-builder {
+  color: var(--Red);
+}
+.Karma {
+  color: var(--Orange);
+}
+.calculator {
+  color: var(--Blue);
+}
