@@ -26,10 +26,11 @@ article {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 500px;
 }
 p,
 .title {
-  font-size: 24px;
+  font-size: 26px;
   color: var(--Dark-Blue);
 }
 p.info {
@@ -39,7 +40,7 @@ p.info {
 p.info {
   color: var(--Grayish-Blue);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
 }
 main {
   display: grid;
@@ -53,6 +54,7 @@ main article {
   border-radius: 7px;
   padding: 20px;
   box-shadow: 2px 5px 15px rgba(65, 63, 63, 0.404);
+  min-height: 170px;
 }
 main p.info {
   text-align: left;
